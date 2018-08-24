@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euxo pipefail;
+deno --version;
+deno --allow-write main.ts;
